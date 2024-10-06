@@ -10,19 +10,29 @@
 }
 
 body {
-	background: #f2f2f2;
+	background: black;
 	width: 100vw;
 	height: 100vh;
 }
 
-body > img {
-	/* display: none; */
-	width: 100vw;
+.opening-container {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	translate: -50% -50%;
 }
+
+img {
+	width: 100vw;
+}
+
+p.opening-text {
+	margin-top: 16px;
+	width: 100%;
+	text-align: center;
+	font-size: 2rem;
+}
+
 
 .message-container {
 	width: 100%;
@@ -42,7 +52,7 @@ body > img {
 p {
 	font-size: 1.3rem;
 	font-family: Inconsolata;
-	color: #3A4E79;
-	width: 70%;
+	color: #cc5500;
+	/* width: 70%; */
 	text-align: center;
 }
